@@ -31,7 +31,7 @@ jobs:
         uses: docker/metadata-action@v3
         with:
           images: |
-            otuniki/
+            otuniki/test
           tags: |
             latest
             type=ref,event=tag
